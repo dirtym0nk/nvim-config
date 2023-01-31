@@ -3,6 +3,7 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 
+opt.autoindent = true
 vim.scriptencoding = 'utf-8'
 opt.encoding = 'utf-8'
 opt.fileencoding = 'utf-8'
@@ -23,6 +24,7 @@ opt.expandtab = true
 
 opt.ignorecase = true
 opt.smartcase = true
+opt.smartindent = true
 
 opt.swapfile = false
 opt.autoread = true
